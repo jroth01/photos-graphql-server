@@ -1,4 +1,3 @@
-// Relational - each photo belongs to an album
 const PHOTOS = [
   {
     id: 'sunrise in texas.jpg',
