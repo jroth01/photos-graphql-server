@@ -14,6 +14,11 @@ const ALBUMS = [
     name: 'Alaskan Pipeline',
     date:  new Date().toDateString()
   },
+  {
+    id: 'pawling-vacation',
+    name: 'Pawling',
+    date: new Date().toDateString(),
+  }
 ];
 
 module.exports = ALBUMS;
