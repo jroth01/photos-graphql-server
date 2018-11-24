@@ -35,6 +35,10 @@ const resolvers = {
     photo: (obj, args, context, info) => {
       let photo = {};
       photo = PHOTOS.find(photo => photo.id === args.id);
+      if (photo) {
+        const album = ALBUMS.find(album => album.id === photo.albumId);
+        photo.album = album;
+      }
       return photo;
     },
     album: (obj, args, context, info) => {
