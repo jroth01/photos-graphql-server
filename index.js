@@ -11,6 +11,7 @@ const typeDefs = gql`
     avatar: String,
     thumb: String,
     src: String,
+    desktop: String,
     album: Album
   }
 
