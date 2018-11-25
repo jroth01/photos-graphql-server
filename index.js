@@ -8,6 +8,8 @@ const typeDefs = gql`
   type Photo {
     id: String,
     name: String,
+    avatar: String,
+    thumb: String,
     src: String,
     album: Album
   }
